@@ -1,0 +1,32 @@
+{
+  "name": "textr",
+  "version": "1.0.0",
+  "description": "Simple web app to send SMS using web APIs, Node.js, Express, and Nexmo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellentuck/Node.git"
+  },
+  "keywords": [
+    "SMS",
+    "Node.js",
+    "Express",
+    "Nexmo"
+  ],
+  "author": "Ben Ellentuck <ellentb@wfu.edu> (https://github.com/bellentuck/starwars-names)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bellentuck/Node/issues"
+  },
+  "homepage": "https://github.com/bellentuck/Node#readme",
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "ejs": "2.5.6",
+    "express": "4.15.2",
+    "nexmo": "1.2.0",
+    "socket.io": "1.7.3"
+  }
+}

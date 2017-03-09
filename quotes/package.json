@@ -1,0 +1,27 @@
+{
+  "name": "quotes",
+  "version": "1.0.0",
+  "description": "Random quote generator, featuring ES6 generators w/ promises to handle async flows via coroutines...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellentuck/Node.git"
+  },
+  "keywords": [
+    "ES6",
+    "generators",
+    "promises",
+    "coroutines",
+    "async",
+    "fetch"
+  ],
+  "author": "Ben Ellentuck <ellentb@wfu.edu> (https://github.com/bellentuck/starwars-names)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bellentuck/Node/issues"
+  },
+  "homepage": "https://github.com/bellentuck/Node#readme"
+}
