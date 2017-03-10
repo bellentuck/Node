@@ -78,7 +78,7 @@ app.post('/', (req, res) => {
         io.emit('smsStatus', data);
       }
     }
-  );
+  });
 
   // // Nexmo basic number insight - info about the phone number
   // nexmo.numberInsight.get({level: 'basic', number: toNumber},

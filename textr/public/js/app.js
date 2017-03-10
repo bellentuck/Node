@@ -38,11 +38,11 @@ socket.on('smsStatus', function(data) {
   }
 });
 
-// Repopulate number field with most recent number
-var lastNumber = localStorage.getItem('number');
-if (lastNumber) {
-  numberField.value = lastNumber;
-}
+// // Repopulate number field with most recent number
+// var lastNumber = localStorage.getItem('number');
+// if (lastNumber) {
+//   numberField.value = lastNumber;
+// }
 
 // UI events
 // Submit form via Return/Enter key...
@@ -58,7 +58,7 @@ function send() {
   var number = numberField.value.replace(/\D/g, ''); // Remove non-numeric chars
   if (!number) return;
   var text = textField.value || 'Hey girl hey';
-  localStorage.setItem('number', number);
+  //localStorage.setItem('number', number);
 
   // 2) Post values to server via Fetch API
   if (!self.fetch) {
