@@ -2,4 +2,4 @@
 
 Viola...  
 ![Textr]
-(https://github.com/bellentuck/Node/tree/master/textr/public/images/textr.png?raw=true)
+(public/images/textr.png)
