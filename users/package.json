@@ -1,0 +1,21 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Learning GraphQL! Datastore + Express/GraphQL Server + GraphQL Lib + GraphiQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GraphQL",
+    "GraphiQL"
+  ],
+  "author": "Ben Ellentuck <ellentuckben@gmail.com> (https://github.com/bellentuck)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.15.2",
+    "express-graphql": "0.6.3",
+    "graphql": "0.9.1",
+    "lodash": "4.17.4"
+  }
+}
